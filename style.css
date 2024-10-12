@@ -31,6 +31,23 @@
     user-select: none; /* Standard syntax */
   }
 
+  .number {
+    background-color: lightyellow;
+  }
+
+  .operate {
+    background-color: lightcoral;
+  }
+
+  .equal{
+    background-color: lightgreen;
+  }
+
+  .clearAll{
+    background-color: black;
+    color: white;
+  }
+
   #displayRow {
     display: flex;
     justify-content: center;
@@ -40,6 +57,7 @@
     border-radius: 5px;
     margin: 2px;
     color: white;
+    font-size: large;
 
   }
 
