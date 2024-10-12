@@ -7,15 +7,39 @@
     flex-direction: column;
     margin: 0 auto;
     border: 5px solid black;
-  }
-
-  .button {
-    background-color: lightgrey;
-    border: 1px solid red;
-    flex: 1 1;
+    border-radius: 10px;
+    background-color: silver;
+    font-size: x-large;
   }
 
   .row {
     display: flex;
     flex: 1 1;
   }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    border: 1px solid red;
+    border-radius: 15%;
+    margin: 2px;
+    flex: 1 1;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+
+  #displayRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    margin: 2px;
+    color: white;
+
+  }
+
